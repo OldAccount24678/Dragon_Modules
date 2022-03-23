@@ -14,11 +14,6 @@ from random import randint, choice
 from PIL import Image, ImageFont, ImageDraw
 from textwrap import wrap
 
-@Client.on_message(filters.command("mother", prefix) & filters.me)
-async def kekkkk(client: Client, message: Message):
-	await message.edit("<code>This is an example module</code>")
-
-
 @Client.on_message(filters.command("amogus", prefix) & filters.me)
 async def amogus(client: Client, message: Message):
 	clrs = {'red': 1, 'lime': 2, 'green': 3, 'blue': 4, 'cyan': 5, 'brown': 6, 'purple': 7, 'pink': 8, 'orange': 9, 'yellow': 10, 'white': 11, 'black': 12}
