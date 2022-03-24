@@ -1,2 +1,2 @@
 # Dragon_Modules
-зачем ты читаешь это дерьмо?
+Модули для *[https://github.com/Dragon_Userbot](Dragon-Userbot)*
