@@ -20,6 +20,7 @@ async def amogus(client: Client, message: Message):
 	clr = randint(1,12)
 	text = " ".join(message.command[1:])
 
+	await message.edit("<b>amgus, tun tun tun tun tun tun tun tudududn tun tun...</b>")
 	url = "https://raw.githubusercontent.com/KeyZenD/AmongUs/master/"
 	font = ImageFont.truetype(BytesIO(get(url+"bold.ttf").content), 60)
 	imposter = Image.open(BytesIO(get(f"{url}{clr}.png").content))
@@ -40,6 +41,6 @@ async def amogus(client: Client, message: Message):
 	await message.delete()
 	await client.send_sticker(message.chat.id, output)
 
-modules_help["Amogus"] = {
+modules_help["amogus"] = {
 	"amogus [text]": "amgus, tun tun tun tun tun tun tun tudududn tun tun"
 }
